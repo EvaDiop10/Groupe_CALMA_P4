@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+}
+
+ 
+input{
+    width: 390px;
+    height: 23px;
+}
+label{
+    font-weight: bold;
+}
+ button ,input, label, h1{
+    position: relative;
+    left: 26%;
+    display: block ;
+    margin-top: 11px ;
+
+ }
+ button{
+    width: 90px;
+ }
+div {
+    position: relative;
+    float: left;
+    top: 20%;
+    left: 15%;
+}
+.reultat{   
+    position: relative;
+    left: 26%;
+    border: 1px solid black;
+}

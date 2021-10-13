@@ -1,0 +1,33 @@
+marquee{
+	color: white;
+	background: linear-gradient(to right, rgb(38, 161, 161), rgb(3, 44, 44));
+}
+nav{
+	background-color: rgba(133, 179, 133, 0.986);
+}
+nav ul{ 
+	padding: 0px;
+	margin: 0px 0px 0px 300px;
+	list-style-type: none;
+	height: 70px;
+	display: inline-block;
+}
+nav li{
+	border-right: 1px solid #ccc;
+	display: inline-block;
+	line-height: 70px;
+	width: 180px;
+	text-align: center;
+}
+nav li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	color: white;
+    font-weight: bold;
+}
+a:hover{
+    transition: 0.5s;
+	color: white;
+	background-color:  rgb(25, 126, 126);
+}
